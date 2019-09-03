@@ -1,0 +1,39 @@
+{
+  "name": "sgvsv/php-mass-files-converter",
+  "description": "Mass recursive convert files in given directory from one encoding to another",
+  "type": "library",
+  "keywords": [
+    "utf-8",
+    "encoding",
+    "files",
+    "convert"
+  ],
+  "homepage": "https://github.com/sgvsv/php-mass-files-converter",
+  "support": {
+    "issues": "https://github.com/sgvsv/php-mass-files-converter/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vasily Svitkin",
+      "email": "svitkin@gmail.com",
+      "role": "lead"
+    }
+  ],
+  "prefer-stable": true,
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "sgvsv\\FilesConverter\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "ext-fileinfo": "*",
+    "ext-libxml": "*",
+    "ext-simplexml": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  }
+}
