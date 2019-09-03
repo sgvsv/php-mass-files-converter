@@ -1,6 +1,6 @@
 {
   "name": "sgvsv/php-mass-files-converter",
-  "description": "Mass recursive convert files in given directory from one encoding to another",
+  "description": "Mass recursive convert files in given directory from given encoding to UTF-8",
   "type": "library",
   "keywords": [
     "utf-8",
